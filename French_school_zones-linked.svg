@@ -15,12 +15,17 @@
 
       .st2 {
         fill: #238e49;
+        transition: fill 0.3s ease;
+        cursor: pointer;
       }
 
       .st2, .st3 {
         stroke: #999;
         stroke-miterlimit: 10;
         stroke-width: 3px;
+      }
+      .st2:hover {
+      fill: #ffffff;   /* blanc au survol */
       }
 
       .st3 {
